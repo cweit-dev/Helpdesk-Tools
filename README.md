@@ -38,7 +38,13 @@ This repository contains a collection of PowerShell automation scripts designed 
 
 \* \*\*Impact:\*\* Resolves common "No Internet" or "Page Cannot Be Displayed" tickets with a single click.
 
-
+### 3. Service Desk Master Console (Robust CLI)
+* **Location:** `master_tool.ps1`
+* **Description:** An interactive Command Line Interface (CLI) menu that unifies the toolkit.
+* **Key Features:**
+    * **Audit Logging:** Automatically writes a timestamped log of every action to `C:\Temp\Helpdesk_Tool_Log.txt` for accountability.
+    * **Safety Checks:** Automatically detects if the script is running with Administrator privileges and warns the user if it is not.
+    * **System Reporting:** Queries WMI/CIM (Windows Management Instrumentation / Common Information Model) to retrieve hardware serial numbers and OS versions.
 
 \## How to Run
 
